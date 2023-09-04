@@ -1,0 +1,99 @@
+h5{
+    font-size: 17px;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+nav.navbar{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-image {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://shopping-cart-demo2.vercel.app/customer/view/img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    order: solid 1px rgb(238, 238, 238);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #e2ebfc, -6px -6px 12px #fff;
+    transition: 0.3s all ease-in-out;
+    height: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    text-align: left;
+}
+.card .content-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: left;
+}
+
+.card .btn {
+    font-size: 17px;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transition: all 0.5s ease-in-out 0s;
+    z-index: 0;
+    background-color: #daa300;
+    opacity: 0;
+}
+
+.card:hover .content-overlay,
+.card:hover .content-details {
+    opacity: 1;
+}
+
+.card:hover .btn{
+    opacity: 1;
+    transform: translateY(-90%);
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
+
+.banner-phone-image img{
+    width: 100%;
+    height: 100%;
+}
