@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+}
+.main-header {
+  background-color: #313131;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navitems li {
+  padding-right: 30px;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.logo a {
+  font-size: 1.3rem;
+  color: #fff;
+  text-decoration: none;
+}
+#home-store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 420px;
+  text-align: center;
+}
+#home-store li {
+  margin-right: 70px;
+  text-decoration: none;
+  color: #fff;
+}
+#title {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #5f679b;
+  margin-top: 80px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-top: 180px;
+}
+.btn_add_phone {
+  top: 0;
+  right: 0;
+  position: absolute;
+  border: none;
+  margin-top: 17px;
+  margin-right: 15px;
+  font-size: 1rem;
+  background-color: darkslategray;
+}
+.btn_add_phone:hover {
+  background-color: #fff;
+  color: #000;
+}
+input {
+  padding: 10px 20px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.modal-content {
+  text-align: center;
+}
+h4 {
+  margin-left: 120px;
+}
+.btn {
+  color: #fff;
+}
+a i {
+  padding-left: 5px;
+}
+.bi {
+  font-size: 30px;
+}
+.main-footer {
+  background-image: linear-gradient(#272661, #7f2d59);
+  margin-top: 70px;
+}
+.top-footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.social {
+  margin-bottom: 0;
+}
+.social i.fa {
+  color: #fff;
+  margin: 15px;
+  font-size: 1.1rem;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  padding-top: 40px;
+  align-items: normal;
+}
+.bottom-footer li {
+  list-style-type: none;
+}
+.copyright {
+  color: #fff;
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background-color: #6a2a5a;
+}
+.copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+.first-col {
+  display: inline-flexbox;
+  justify-content: flex-start;
+}
+.first-col-child {
+  display: flex;
+  align-items: normal;
+}
+.second-col li,
+.third-col li {
+  text-decoration: underline;
+}
+.second-col a,
+.third-col a {
+  color: #fff;
+}
+.fourth-col .fa {
+  margin-right: 15px;
+}
+#brand {
+  width: 86%;
+  height: 59px;
+}
